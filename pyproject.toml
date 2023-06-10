@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "assignment-14"
+version = "0.1.0"
+description = ""
+authors = ["beliyaka98 <the.akniyet.second@gmail.com>"]
+readme = "README.md"
+packages = [{include = "assignment_14"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+colorama = "^0.4.6"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
